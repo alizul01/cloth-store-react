@@ -7,5 +7,5 @@ module.exports = {
       fontFamily: 'Inter'
     },
   },
-  plugins: [],
+  plugins: [require('@headlessui/tailwindcss')({ prefix: 'ui' })],
 }

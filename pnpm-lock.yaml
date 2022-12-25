@@ -1,6 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@headlessui/react': ^1.7.7
+  '@headlessui/tailwindcss': ^0.1.2
   '@testing-library/jest-dom': ^5.16.5
   '@testing-library/react': ^13.4.0
   '@testing-library/user-event': ^13.5.0
@@ -14,6 +16,8 @@ specifiers:
   web-vitals: ^2.1.4
 
 dependencies:
+  '@headlessui/react': 1.7.7_biqbaboplfbrettd7655fr4n2y
+  '@headlessui/tailwindcss': 0.1.2_tailwindcss@3.2.4
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
   '@testing-library/user-event': 13.5.0_ua4wuun3fnehcjqtqj2e2ldgpe
@@ -1592,6 +1596,27 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /@headlessui/react/1.7.7_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-BqDOd/tB9u2tA0T3Z0fn18ktw+KbVwMnkxxsGPIH2hzssrQhKB5n/6StZOyvLYP/FsYtvuXfi9I0YowKPv2c1w==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: ^16 || ^17 || ^18
+      react-dom: ^16 || ^17 || ^18
+    dependencies:
+      client-only: 0.0.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
+  /@headlessui/tailwindcss/0.1.2_tailwindcss@3.2.4:
+    resolution: {integrity: sha512-AQNESz+f1grCxifrocOE6hDMDFqhqY0g3xrSGOS0ocGkmVkssaBzXaAPAPNSs/nHmr4ZUhfl5THQpYrvaouWlQ==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      tailwindcss: ^3.0
+    dependencies:
+      tailwindcss: 3.2.4_postcss@8.4.20
     dev: false
 
   /@humanwhocodes/config-array/0.11.8:
@@ -3523,6 +3548,10 @@ packages:
     engines: {node: '>= 10.0'}
     dependencies:
       source-map: 0.6.1
+    dev: false
+
+  /client-only/0.0.1:
+    resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
     dev: false
 
   /cliui/7.0.4:
