@@ -1,9 +1,10 @@
-import React from 'react';
+import React from 'react'
+import Header from './parts/Header'
 
-function Main(props) {
-    return (
-        <div></div>
-    );
+export default function Main() {
+  return (
+    <div>
+        <Header />
+    </div>
+  )
 }
-
-export default Main;
