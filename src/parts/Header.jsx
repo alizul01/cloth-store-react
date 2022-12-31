@@ -22,16 +22,16 @@ export default function Header({ theme, position }) {
                         >
                             <li className="mx-3 py-6 md:py-0">
                                 {/* eslint-disable jsx-a11y/anchor-is-valid */}
-                                <NavLink to="/" className={["hover:underline", theme == "white" ? "text-black md:text-white" : "text-white md:text-black"].join(" ")}>Home</NavLink>
+                                <NavLink to="/" className={["hover:underline", theme === "white" ? "text-black md:text-white" : "text-white md:text-black"].join(" ")}>Home</NavLink>
                             </li>
                             <li className="mx-3 py-6 md:py-0">
-                                <NavLink to="/showcase" className={["hover:underline", theme == "white" ? "text-black md:text-white" : "text-white md:text-black"].join(" ")}>Showcase</NavLink>
+                                <NavLink to="/showcase" className={["hover:underline", theme === "white" ? "text-black md:text-white" : "text-white md:text-black"].join(" ")}>Showcase</NavLink>
                             </li>
                             <li className="mx-3 py-6 md:py-0">
-                                <NavLink to="/delivery" className={["hover:underline", theme == "white" ? "text-black md:text-white" : "text-white md:text-black"].join(" ")}>Delivery</NavLink>
+                                <NavLink to="/delivery" className={["hover:underline", theme === "white" ? "text-black md:text-white" : "text-white md:text-black"].join(" ")}>Delivery</NavLink>
                             </li>
                             <li className="mx-3 py-6 md:py-0">
-                                <NavLink to="/catalog" className={["hover:underline", theme == "white" ? "text-black md:text-white" : "text-white md:text-black"].join(" ")}>Catalog</NavLink>
+                                <NavLink to="/catalog" className={["hover:underline", theme === "white" ? "text-black md:text-white" : "text-white md:text-black"].join(" ")}>Catalog</NavLink>
                             </li>
                         </ul>
                     </div>
